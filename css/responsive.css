@@ -1,0 +1,215 @@
+@media(max-width:575.98px){
+
+/* ----------navbar part start----------- */
+#navbar{
+    background-color: blueviolet;
+    padding: 25px 10px;
+}    
+.nav-wrapper {
+    flex-direction: row;
+    position: relative;
+    padding: 0 10px;
+}
+.menu {
+    display: none;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu.toggle{
+    position: absolute;
+    display: flex;
+    top: 60px;
+    right: 10px;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu ul {
+    flex-direction: column;
+    row-gap: 25px;
+    text-align: center;
+    
+}
+/* ------------banner part start-------- */
+
+.banner-content h1 {
+    font-size: 25px;
+}
+.banner-content h2 {
+    font-size: 12px;
+}
+.banner-content p {
+    font-size: 10px;
+}
+/* ----------service part start ------- */
+.service-hadding{
+    padding: 0 10px;
+}
+.service-hadding h1 {
+    font-size: 17px;
+    line-height: 22px;
+}
+.service-hadding p {
+    font-size: 10px;
+    line-height: 22px;
+}
+.service-hadding h3 {
+    font-size: 13px;
+}
+.image-item {
+    flex-direction: column;
+    row-gap: 25px;
+}
+.img-box {
+    width: 100%;
+}
+.img-box-img{
+    width: 100%;
+}
+.img-box p {
+    font-size: 10px;
+    padding:10px;
+}
+/* -----------instra tart start------------- */
+#insta {
+    background-color: blueviolet;
+    padding: 25px 0;
+}
+.common-hadding {
+    padding-bottom: 35px;
+    font-style: 16px;
+}
+.img-box p {
+    font-size: 10px;
+}
+.common-hadding::after {
+    width: 40px;
+    left: -58px;
+    background-color: #fff;
+    top: 9px;
+}
+
+.common-hadding::before {
+    width: 40px;
+    right: -58px;
+    background-color: #fff;
+    top: 9px;
+}
+
+.shots-wrapper {
+    flex-direction: column;
+}
+.shots-item {
+    width: 100%;
+    padding: 0px 0;
+}
+.shots-btn{
+    margin-top: 46px;
+}
+.shots-btn a {
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* -------------journal-part start---------------  */
+.journal-wrapper{
+    flex-direction: column;
+}
+.journal-item-img img{
+    width: 100%;
+    padding: 10px 30px;
+}
+.journal-item {
+    background-color: #fff;
+    border: 3px solid #e3e3e3;
+    width: 100%;
+}
+/* ---------------about part start --------------- */
+.about-service{
+    flex-direction: column;
+}
+.about-item {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 100%;
+    padding: 0 15px;
+}
+.service-part{
+    width: 100%;
+    padding: 15px;
+}
+.extra-item{
+    padding: 25px 0;
+    text-align: center;
+}
+.extra-item h6 {
+    font-size: 9px;
+    padding: 0 15px;
+}
+.extra-item p {
+    font-size: 10px;
+    padding: 15px 25px;
+}
+.about-main h1 {
+    color: red;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.about-main h1::after {
+    background-color: aqua;
+    left: 189px;
+}
+.service-item {
+    padding-left: 15px;
+}
+.text p {
+    padding-top:0;
+    font-size: 10px;
+}
+
+/* ---------------last part start --------------- */
+#last{
+    padding: 25px 0;
+}
+.main-item{
+    text-align: center;
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 0 15px;
+}
+.item-start p{
+    width: 100%;
+    padding: 0 40px;
+}
+}
+.item-start{
+    border: 1px solid aqua;
+    padding: 10px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.item-start:hover{
+    box-shadow:10px 10px blueviolet;
+
+}
+
+/* ============small device================= */
+
+
+
+
+@media(min-width:576px) and (max-width:767.98px){
+    
+}
